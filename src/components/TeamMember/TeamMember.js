@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './TeamMember.css';
-import MatterEmptyAvatar from '../../assets/matter_empty_avatar.svg';
+import CodelitEmptyAvatar from '../../assets/codelit_empty_avatar.svg';
 
 class TeamMember extends React.PureComponent {
   static propTypes = {
@@ -13,7 +13,7 @@ class TeamMember extends React.PureComponent {
   };
 
   static defaultProps = {
-    photoUrl: MatterEmptyAvatar,
+    photoUrl: CodelitEmptyAvatar,
     story: null,
     favoriteColor: '#3466F2'
   };
